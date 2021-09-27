@@ -1,0 +1,103 @@
+.rubric {
+    padding: 6rem;
+    background: #fff;
+    overflow-y: scroll;
+    white-space: pre-wrap;
+    margin-bottom: 100;
+
+  }
+  
+  h1 {
+    margin-bottom: 100;
+    white-space: pre-wrap;
+    font-weight: 400;
+    text-align: left;
+  }
+
+  h3 {
+    margin-bottom: auto;
+  }
+  
+  .rubric__container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 1120px;
+    width: 90%;
+    margin: 0 auto;
+    font-weight: 100;
+    white-space: pre-wrap;
+    background: #fff;
+  }
+  
+  
+  .rubric__wrapper {
+    position: relative;
+    margin: 50px 0 45px;
+    font-weight: 100;
+    overflow: scroll;
+    white-space: pre-wrap;
+
+
+
+  }
+  
+  .rubric__items {
+    margin-bottom: 24px;
+    font-size: medium;
+    font-weight: 100;
+    overflow-y: scroll;
+    white-space: pre-wrap;
+    background: #fff;
+  }
+
+  .credit {
+    background-color: rgba(183, 183, 236, 0.37);
+  }
+
+  .nocredit {
+    background-color: rgba(255, 166, 0, 0.397);
+    white-space: pre-wrap;
+  }
+ 
+  
+  .rubric__item {
+    display: flex;
+    flex: 1;
+    margin: 0 1rem;
+    border-radius: 10px;
+    overflow: scroll;
+    color:blueviolet
+  }
+
+  
+  .cards__item__info {
+    padding: 20px 30px 30px;
+  }
+  
+  .cards__item__text {
+    color: purple;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 100;
+    overflow: scroll;
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    .content__blog__container {
+      width: 84%;
+    }
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    .cards__items {
+      display: flex;
+    }
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .cards__item {
+      margin-bottom: 2rem;
+    }
+  }
+  
