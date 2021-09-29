@@ -14,14 +14,9 @@ function Rubric() {
         <div className='rubric__wrapper'>
           <ul className='rubric__items'>
             <textarea className = 'textbox'>
-            "Mr. Kelly Kort is a previously healthy 45 y.o. man who presents to the ambulatory clinic ( day 1) with acute back pain. Three weeks ago was moving
-boxes in his living room and after which felt back pain immediately. The pain is described as diffuse and non-radiating. The pain however feels sharp
-when he makes quick moves. He is concerned because the pain has not gotten better and the pain is the worst back pain that he's ever felt. He takes
-tylenol 2-3 times a day and it has not gotten better or gotten worse. Nothing makes the pain better. He is also concerned because his dad died of
-prostate cancer with mets to the spine and he is concerned that he may have cancer of his spine. He drinks a couple times a week but denies drugs and
-excessive exercise. He denies flu like symptoms, weight loss, blood loss, dysphagia, and chills, n/v, or syncope. He is otherwise well. Differential
-diagnosis for this includes: spinal compression fracture most likely, sprain, or much lower spinal stenosis, pyelonephritis, or compression due to tumor.
-Unlikely however cancer but still can proceed with imaging to rule out."
+            '-Lower back pain for 3 weeks since rearranging furniture -constant pain on both sides of lumbrosacral back, 8/10 -worsens with movement -able to walk -
+no weakness, numbness, parasthesias -Motrin, Tylenol provided limited relief -Recent prostate exam 6 mo ago - normal -Family history of prostate
+cancer with mets to spine in father
             </textarea>
           </ul>
 
@@ -118,8 +113,8 @@ Unlikely however cancer but still can proceed with imaging to rule out."
         <div className='rubric__wrapper'>
           <ul className='rubric__items'>
             <textarea>
-            12 point exam was negative with the exception of musculoskeletal findings. Including negative for lymphadenopathy. Patient had a positive straight leg
-            test. Was able to move the leg only 60 degrees. Had difficulty with flexion of hips bilaterally. Difficulty with spine flexion. Denies flank pain.            </textarea>
+            '-bilateral paraspinal tenderness -No vertebral tenderness -straight leg test negative            
+            </textarea>
           </ul>
 
           <h1> Physical Exam Evaluation </h1>
@@ -178,15 +173,15 @@ Unlikely however cancer but still can proceed with imaging to rule out."
         <div className='rubric__wrapper'>
           <ul className='rubric__items'>
             <textarea>
-            spinal compression fracture
+            Lumbar sprain
             </textarea>
 
             <textarea>
-              Not answered
+            paraspinal tenderness, no vertebral tenderness
             </textarea>
 
             <textarea>
-              Not answered
+            FHx of spinal mets. Unlikely due to good health.
             </textarea>
           </ul>
 
@@ -220,23 +215,23 @@ Unlikely however cancer but still can proceed with imaging to rule out."
         <div className='rubric__wrapper'>
           <ul className='rubric__items'>
             <textarea>
-            Spine xray
+            No further testing.
             </textarea>
 
             <textarea>
-            MRI of spine
+            No Answer
             </textarea>
 
             <textarea>
-              CMP
+              No Answer
             </textarea>
 
             <textarea>
-              CMP
+              No Answer
             </textarea>
 
             <textarea>
-              CMP
+              No Answer
             </textarea>
           </ul>
 
