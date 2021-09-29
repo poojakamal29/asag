@@ -30,21 +30,17 @@ Unlikely however cancer but still can proceed with imaging to rule out."
 
           <ul className='credit'>
             <h3> Items Found in Note: </h3>
-          <RubricItem className = 'highconfidence'
+            <RubricItem className = 'highconfidence'
               text='Back pain for 3 weeks described as dull ache exacerbated by any movement *'
             />
                       <RubricItem 
               text='Began after moving furniture *'
             />
-                      <RubricItem 
-              text='Worse with flexion and rotation'
-            />
+
                       <RubricItem 
               text='Trying Motrin and Tylenol with slight relief *'
             />
-                      <RubricItem 
-              text=' Pain radiates laterally across the lower back'
-            />
+
                                   <RubricItem 
               text=' Unable to perform usual exercise routine'
             />
@@ -83,9 +79,31 @@ Unlikely however cancer but still can proceed with imaging to rule out."
 
           <ul className='nocredit'>
           <h3> Items NOT Found in Note: </h3>
+
+                                  <RubricItem 
+              text='Worse with flexion and rotation'
+            />
           <RubricItem
+          
               text='No bladder symptoms'
             />
+                              <RubricItem 
+              text='No radiation to the legs'
+            />
+                      <RubricItem 
+              text='No bowel symptoms'
+            />
+                                  <RubricItem 
+              text=' No fever *'
+            />
+                                  <RubricItem 
+              text='No concerning alcohol use'
+            />
+
+        <RubricItem 
+              text=' Pain radiates laterally across the lower back'
+            />
+
                        <RubricItem 
               text='No weight loss'
             />
@@ -109,13 +127,29 @@ Unlikely however cancer but still can proceed with imaging to rule out."
 
           <ul className='credit'>
             <h3> Items Found in Note: </h3>
-          <RubricItem 
-              text='Vital signs mentioned - normal'
-            />
+
                       <RubricItem 
               text='Pain on paraspinal palpation *'
             />
-                      <RubricItem 
+
+                                  <RubricItem 
+              text=' No vertebral tenderness *'
+            />
+                                  <RubricItem 
+              text='Babinski down going bilaterally'
+            />
+
+          </ul>
+
+          <ul className='nocredit'>
+          <h3> Items NOT Found in Note: </h3>
+          <RubricItem 
+              text='Vital signs mentioned - normal'
+            />
+          <RubricItem
+              text='Straight leg raise'
+              />
+                                <RubricItem 
               text='Motor strength 5/5 in LE *'
             />
                       <RubricItem 
@@ -130,20 +164,7 @@ Unlikely however cancer but still can proceed with imaging to rule out."
                                   <RubricItem 
               text='Limited range of motion of the back'
             />
-                                  <RubricItem 
-              text=' No vertebral tenderness *'
-            />
-                                  <RubricItem 
-              text='Babinski down going bilaterally'
-            />
-
-          </ul>
-
-          <ul className='nocredit'>
-          <h3> Items NOT Found in Note: </h3>
-          <RubricItem
-              text='Straight leg raise'
-              />
+            
           </ul>
         </div>
       </div>
@@ -223,17 +244,18 @@ Unlikely however cancer but still can proceed with imaging to rule out."
           <h4> Note: Any item marked with an * displays an item where the machine had high confidence </h4>
           <ul className='credit'>
             <h3> Items Found in Note: </h3>
+          <RubricItem text = 'None '/>
+
+          </ul>
+
+          <ul className='nocredit'>
+          <h3> Items NOT Found in Note: </h3>
           <RubricItem 
               text='MRI'
             />
           <RubricItem 
               text='PSA'
             />
-
-          </ul>
-
-          <ul className='nocredit'>
-          <h3> Items NOT Found in Note: </h3>
           <RubricItem
               text='Prostate exam'
               />
