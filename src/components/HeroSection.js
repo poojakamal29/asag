@@ -14,7 +14,7 @@ function HeroSection() {
     <div className='hero-container'>
       <h1>Which one are you?</h1>
       <div className='hero-btns'>
-        <Link to='/faculty'>
+        <Link to='/facultycardtwo'>
           <Button
             className='btns'
             buttonStyle='btn--outline'
