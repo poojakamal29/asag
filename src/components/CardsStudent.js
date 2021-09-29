@@ -14,7 +14,7 @@ function CardsStudent() {
                             src='images/img-3.jpg'
                             text='Individual Performance'
                             label='Grades'
-                            path='/facultycardtwo'
+                            path='/facultycardthree'
                         />
                     </ul>
                 </div>
