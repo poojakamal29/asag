@@ -14,14 +14,14 @@ function Rubric() {
         <div className='rubric__wrapper'>
           <ul className='rubric__items'>
             <textarea className = 'textbox'>
-            Mr. Kelly Kort is a previously healthy 45 y.o. man who presents to the ambulatory clinic ( day 1) with acute back pain. Three weeks ago was moving
+            "Mr. Kelly Kort is a previously healthy 45 y.o. man who presents to the ambulatory clinic ( day 1) with acute back pain. Three weeks ago was moving
 boxes in his living room and after which felt back pain immediately. The pain is described as diffuse and non-radiating. The pain however feels sharp
 when he makes quick moves. He is concerned because the pain has not gotten better and the pain is the worst back pain that he's ever felt. He takes
 tylenol 2-3 times a day and it has not gotten better or gotten worse. Nothing makes the pain better. He is also concerned because his dad died of
 prostate cancer with mets to the spine and he is concerned that he may have cancer of his spine. He drinks a couple times a week but denies drugs and
 excessive exercise. He denies flu like symptoms, weight loss, blood loss, dysphagia, and chills, n/v, or syncope. He is otherwise well. Differential
 diagnosis for this includes: spinal compression fracture most likely, sprain, or much lower spinal stenosis, pyelonephritis, or compression due to tumor.
-Unlikely however cancer but still can proceed with imaging to rule out.
+Unlikely however cancer but still can proceed with imaging to rule out."
             </textarea>
           </ul>
 
@@ -157,12 +157,15 @@ Unlikely however cancer but still can proceed with imaging to rule out.
         <div className='rubric__wrapper'>
           <ul className='rubric__items'>
             <textarea>
+            spinal compression fracture
             </textarea>
 
             <textarea>
+              Not answered
             </textarea>
 
             <textarea>
+              Not answered
             </textarea>
           </ul>
 
@@ -196,12 +199,23 @@ Unlikely however cancer but still can proceed with imaging to rule out.
         <div className='rubric__wrapper'>
           <ul className='rubric__items'>
             <textarea>
+            Spine xray
             </textarea>
 
             <textarea>
+            MRI of spine
             </textarea>
 
             <textarea>
+              CMP
+            </textarea>
+
+            <textarea>
+              CMP
+            </textarea>
+
+            <textarea>
+              CMP
             </textarea>
           </ul>
 
