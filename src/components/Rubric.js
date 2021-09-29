@@ -14,9 +14,8 @@ function Rubric() {
         <div className='rubric__wrapper'>
           <ul className='rubric__items'>
             <textarea className = 'textbox'>
-            '-Lower back pain for 3 weeks since rearranging furniture -constant pain on both sides of lumbrosacral back, 8/10 -worsens with movement -able to walk -
-no weakness, numbness, parasthesias -Motrin, Tylenol provided limited relief -Recent prostate exam 6 mo ago - normal -Family history of prostate
-cancer with mets to spine in father
+            45 y/o M w/no significant PMH presents w/ non radiating bilateral sharp throbbing lower back pain that began 3 weeks ago after helping his wife rearrange
+furniture -negative for weight loss, no urinary or bowel movement issues, denies blood in stool or urine -family hx of prostate cancer (father)
             </textarea>
           </ul>
 
@@ -25,48 +24,27 @@ cancer with mets to spine in father
 
           <ul className='credit'>
             <h3> Items Found in Note: </h3>
-            <RubricItem className = 'highconfidence'
-              text='Back pain for 3 weeks described as dull ache exacerbated by any movement *'
-            />
+
                       <RubricItem 
               text='Began after moving furniture *'
             />
 
-                      <RubricItem 
-              text='Trying Motrin and Tylenol with slight relief *'
-            />
+
 
                                   <RubricItem 
               text=' Unable to perform usual exercise routine'
             />
-                      <RubricItem 
-              text='Father with history of prostate cancer with spine mets'
-            />
+ 
                       <RubricItem 
               text='No radiation to the legs'
             />
-                      <RubricItem 
-              text='No bowel symptoms'
-            />
-            
-            <RubricItem 
-              text='No LE weakness, numbness or tingling *'
-            />
-                        <RubricItem 
-              text=' No fever *'
-            />
+
+
+
                         <RubricItem 
               text='No past medical history of note'
             />
-                        <RubricItem 
-              text='No IV drug use in the past'
-            />
-                        <RubricItem 
-              text=' No smoking in the past'
-            />
-                        <RubricItem 
-              text='No concerning alcohol use'
-            />
+
              
 
 
@@ -74,14 +52,23 @@ cancer with mets to spine in father
 
           <ul className='nocredit'>
           <h3> Items NOT Found in Note: </h3>
-
+          <RubricItem className = 'highconfidence'
+              text='Back pain for 3 weeks described as dull ache exacerbated by any movement *'
+            />
                                   <RubricItem 
               text='Worse with flexion and rotation'
+            />
+                                  <RubricItem 
+              text='Trying Motrin and Tylenol with slight relief *'
             />
           <RubricItem
           
               text='No bladder symptoms'
             />
+                                  <RubricItem 
+              text='No bowel symptoms'
+            />
+            
                               <RubricItem 
               text='No radiation to the legs'
             />
@@ -94,6 +81,9 @@ cancer with mets to spine in father
                                   <RubricItem 
               text='No concerning alcohol use'
             />
+                                 <RubricItem 
+              text='Father with history of prostate cancer with spine mets'
+            />
 
         <RubricItem 
               text=' Pain radiates laterally across the lower back'
@@ -101,6 +91,21 @@ cancer with mets to spine in father
 
                        <RubricItem 
               text='No weight loss'
+            />
+                        <RubricItem 
+              text='No LE weakness, numbness or tingling *'
+            />
+                                    <RubricItem 
+              text=' No fever *'
+            />
+                                    <RubricItem 
+              text='No IV drug use in the past'
+            />
+                        <RubricItem 
+              text=' No smoking in the past'
+            />
+                        <RubricItem 
+              text='No concerning alcohol use'
             />
  
           </ul>
@@ -113,8 +118,8 @@ cancer with mets to spine in father
         <div className='rubric__wrapper'>
           <ul className='rubric__items'>
             <textarea>
-            '-bilateral paraspinal tenderness -No vertebral tenderness -straight leg test negative            
-            </textarea>
+            cardio: regular rate and rhythm resp: clear bilatearlly abdomen: non tender, non distended msk: pt has limited ROM due to back pain, spine palpation is
+negative but tender lower back neuro: alert and oriented x 3; patellar and ankle reflexes are 2 +            </textarea>
           </ul>
 
           <h1> Physical Exam Evaluation </h1>
@@ -181,8 +186,11 @@ cancer with mets to spine in father
             </textarea>
 
             <textarea>
-            FHx of spinal mets. Unlikely due to good health.
-            </textarea>
+            spinal stenosis  </textarea>
+
+            <textarea>
+            radiculopathy  </textarea>
+            
           </ul>
 
           <h1> Diagnosis Evaluation </h1>
@@ -215,7 +223,7 @@ cancer with mets to spine in father
         <div className='rubric__wrapper'>
           <ul className='rubric__items'>
             <textarea>
-            No further testing.
+            unlikely bc no numbness or tingling
             </textarea>
 
             <textarea>
