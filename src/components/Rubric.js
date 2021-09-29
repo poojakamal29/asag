@@ -14,8 +14,14 @@ function Rubric() {
         <div className='rubric__wrapper'>
           <ul className='rubric__items'>
             <textarea className = 'textbox'>
-            45 y/o M w/no significant PMH presents w/ non radiating bilateral sharp throbbing lower back pain that began 3 weeks ago after helping his wife rearrange
-furniture -negative for weight loss, no urinary or bowel movement issues, denies blood in stool or urine -family hx of prostate cancer (father)
+            "Mr. Kelly Kort is a previously healthy 45 y.o. man who presents to the ambulatory clinic ( day 1) with acute back pain. Three weeks ago was moving
+boxes in his living room and after which felt back pain immediately. The pain is described as diffuse and non-radiating. The pain however feels sharp
+when he makes quick moves. He is concerned because the pain has not gotten better and the pain is the worst back pain that he's ever felt. He takes
+tylenol 2-3 times a day and it has not gotten better or gotten worse. Nothing makes the pain better. He is also concerned because his dad died of
+prostate cancer with mets to the spine and he is concerned that he may have cancer of his spine. He drinks a couple times a week but denies drugs and
+excessive exercise. He denies flu like symptoms, weight loss, blood loss, dysphagia, and chills, n/v, or syncope. He is otherwise well. Differential
+diagnosis for this includes: spinal compression fracture most likely, sprain, or much lower spinal stenosis, pyelonephritis, or compression due to tumor.
+Unlikely however cancer but still can proceed with imaging to rule out."
             </textarea>
           </ul>
 
@@ -24,81 +30,44 @@ furniture -negative for weight loss, no urinary or bowel movement issues, denies
 
           <ul className='credit'>
             <h3> Items Found in Note: </h3>
-
-                      <RubricItem 
-              text='Began after moving furniture *'
-            />
-
-
-
-                                  <RubricItem 
-              text=' Unable to perform usual exercise routine'
-            />
- 
-                      <RubricItem 
-              text='No radiation to the legs'
-            />
-
-
-
-                        <RubricItem 
-              text='No past medical history of note'
-            />
-
-             
-
-
-          </ul>
-
-          <ul className='nocredit'>
-          <h3> Items NOT Found in Note: </h3>
           <RubricItem className = 'highconfidence'
               text='Back pain for 3 weeks described as dull ache exacerbated by any movement *'
             />
-                                  <RubricItem 
+                      <RubricItem 
+              text='Began after moving furniture *'
+            />
+                      <RubricItem 
               text='Worse with flexion and rotation'
             />
-                                  <RubricItem 
+                      <RubricItem 
               text='Trying Motrin and Tylenol with slight relief *'
             />
-          <RubricItem
-          
-              text='No bladder symptoms'
+                      <RubricItem 
+              text=' Pain radiates laterally across the lower back'
             />
                                   <RubricItem 
-              text='No bowel symptoms'
+              text=' Unable to perform usual exercise routine'
             />
-            
-                              <RubricItem 
+                      <RubricItem 
+              text='Father with history of prostate cancer with spine mets'
+            />
+                      <RubricItem 
               text='No radiation to the legs'
             />
                       <RubricItem 
               text='No bowel symptoms'
             />
-                                  <RubricItem 
-              text=' No fever *'
-            />
-                                  <RubricItem 
-              text='No concerning alcohol use'
-            />
-                                 <RubricItem 
-              text='Father with history of prostate cancer with spine mets'
-            />
-
-        <RubricItem 
-              text=' Pain radiates laterally across the lower back'
-            />
-
-                       <RubricItem 
-              text='No weight loss'
-            />
-                        <RubricItem 
+            
+            <RubricItem 
               text='No LE weakness, numbness or tingling *'
             />
-                                    <RubricItem 
+                        <RubricItem 
               text=' No fever *'
             />
-                                    <RubricItem 
+                        <RubricItem 
+              text='No past medical history of note'
+            />
+                        <RubricItem 
               text='No IV drug use in the past'
             />
                         <RubricItem 
@@ -106,6 +75,19 @@ furniture -negative for weight loss, no urinary or bowel movement issues, denies
             />
                         <RubricItem 
               text='No concerning alcohol use'
+            />
+             
+
+
+          </ul>
+
+          <ul className='nocredit'>
+          <h3> Items NOT Found in Note: </h3>
+          <RubricItem
+              text='No bladder symptoms'
+            />
+                       <RubricItem 
+              text='No weight loss'
             />
  
           </ul>
@@ -118,8 +100,8 @@ furniture -negative for weight loss, no urinary or bowel movement issues, denies
         <div className='rubric__wrapper'>
           <ul className='rubric__items'>
             <textarea>
-            cardio: regular rate and rhythm resp: clear bilatearlly abdomen: non tender, non distended msk: pt has limited ROM due to back pain, spine palpation is
-negative but tender lower back neuro: alert and oriented x 3; patellar and ankle reflexes are 2 +            </textarea>
+            12 point exam was negative with the exception of musculoskeletal findings. Including negative for lymphadenopathy. Patient had a positive straight leg
+            test. Was able to move the leg only 60 degrees. Had difficulty with flexion of hips bilaterally. Difficulty with spine flexion. Denies flank pain.            </textarea>
           </ul>
 
           <h1> Physical Exam Evaluation </h1>
@@ -127,29 +109,13 @@ negative but tender lower back neuro: alert and oriented x 3; patellar and ankle
 
           <ul className='credit'>
             <h3> Items Found in Note: </h3>
-
-                      <RubricItem 
-              text='Pain on paraspinal palpation *'
-            />
-
-                                  <RubricItem 
-              text=' No vertebral tenderness *'
-            />
-                                  <RubricItem 
-              text='Babinski down going bilaterally'
-            />
-
-          </ul>
-
-          <ul className='nocredit'>
-          <h3> Items NOT Found in Note: </h3>
           <RubricItem 
               text='Vital signs mentioned - normal'
             />
-          <RubricItem
-              text='Straight leg raise'
-              />
-                                <RubricItem 
+                      <RubricItem 
+              text='Pain on paraspinal palpation *'
+            />
+                      <RubricItem 
               text='Motor strength 5/5 in LE *'
             />
                       <RubricItem 
@@ -164,7 +130,20 @@ negative but tender lower back neuro: alert and oriented x 3; patellar and ankle
                                   <RubricItem 
               text='Limited range of motion of the back'
             />
-            
+                                  <RubricItem 
+              text=' No vertebral tenderness *'
+            />
+                                  <RubricItem 
+              text='Babinski down going bilaterally'
+            />
+
+          </ul>
+
+          <ul className='nocredit'>
+          <h3> Items NOT Found in Note: </h3>
+          <RubricItem
+              text='Straight leg raise'
+              />
           </ul>
         </div>
       </div>
@@ -178,19 +157,16 @@ negative but tender lower back neuro: alert and oriented x 3; patellar and ankle
         <div className='rubric__wrapper'>
           <ul className='rubric__items'>
             <textarea>
-            Lumbar sprain
+            spinal compression fracture
             </textarea>
 
             <textarea>
-            paraspinal tenderness, no vertebral tenderness
+              Not answered
             </textarea>
 
             <textarea>
-            spinal stenosis  </textarea>
-
-            <textarea>
-            radiculopathy  </textarea>
-            
+              Not answered
+            </textarea>
           </ul>
 
           <h1> Diagnosis Evaluation </h1>
@@ -223,23 +199,23 @@ negative but tender lower back neuro: alert and oriented x 3; patellar and ankle
         <div className='rubric__wrapper'>
           <ul className='rubric__items'>
             <textarea>
-            unlikely bc no numbness or tingling
+            Spine xray
             </textarea>
 
             <textarea>
-            No Answer
+            MRI of spine
             </textarea>
 
             <textarea>
-              No Answer
+              CMP
             </textarea>
 
             <textarea>
-              No Answer
+              CMP
             </textarea>
 
             <textarea>
-              No Answer
+              CMP
             </textarea>
           </ul>
 
@@ -247,18 +223,17 @@ negative but tender lower back neuro: alert and oriented x 3; patellar and ankle
           <h4> Note: Any item marked with an * displays an item where the machine had high confidence </h4>
           <ul className='credit'>
             <h3> Items Found in Note: </h3>
-          <RubricItem text = 'None '/>
-
-          </ul>
-
-          <ul className='nocredit'>
-          <h3> Items NOT Found in Note: </h3>
           <RubricItem 
               text='MRI'
             />
           <RubricItem 
               text='PSA'
             />
+
+          </ul>
+
+          <ul className='nocredit'>
+          <h3> Items NOT Found in Note: </h3>
           <RubricItem
               text='Prostate exam'
               />
