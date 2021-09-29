@@ -13,7 +13,7 @@ function Rubric() {
       <div className='rubric__container'>
         <div className='rubric__wrapper'>
           <ul className='rubric__items'>
-            <textarea>
+            <textarea className = 'textbox'>
             Mr. Kelly Kort is a previously healthy 45 y.o. man who presents to the ambulatory clinic ( day 1) with acute back pain. Three weeks ago was moving
 boxes in his living room and after which felt back pain immediately. The pain is described as diffuse and non-radiating. The pain however feels sharp
 when he makes quick moves. He is concerned because the pain has not gotten better and the pain is the worst back pain that he's ever felt. He takes
@@ -26,19 +26,21 @@ Unlikely however cancer but still can proceed with imaging to rule out.
           </ul>
 
           <h1> History Evaluation </h1>
+          <h4> Note: Any item marked with an * displays an item where the machine had high confidence </h4>
+
           <ul className='credit'>
             <h3> Items Found in Note: </h3>
-          <RubricItem 
-              text='Back pain for 3 weeks described as dull ache exacerbated by any movement'
+          <RubricItem className = 'highconfidence'
+              text='Back pain for 3 weeks described as dull ache exacerbated by any movement *'
             />
                       <RubricItem 
-              text='Began after moving furniture'
+              text='Began after moving furniture *'
             />
                       <RubricItem 
               text='Worse with flexion and rotation'
             />
                       <RubricItem 
-              text='Trying Motrin and Tylenol with slight relief'
+              text='Trying Motrin and Tylenol with slight relief *'
             />
                       <RubricItem 
               text=' Pain radiates laterally across the lower back'
@@ -57,10 +59,10 @@ Unlikely however cancer but still can proceed with imaging to rule out.
             />
             
             <RubricItem 
-              text='No LE weakness, numbness or tingling'
+              text='No LE weakness, numbness or tingling *'
             />
                         <RubricItem 
-              text=' No fever'
+              text=' No fever *'
             />
                         <RubricItem 
               text='No past medical history of note'
@@ -103,16 +105,18 @@ Unlikely however cancer but still can proceed with imaging to rule out.
           </ul>
 
           <h1> Physical Exam Evaluation </h1>
+          <h4> Note: Any item marked with an * displays an item where the machine had high confidence </h4>
+
           <ul className='credit'>
             <h3> Items Found in Note: </h3>
           <RubricItem 
-              text=' Vital signs mentioned - normal'
+              text='Vital signs mentioned - normal'
             />
                       <RubricItem 
-              text='Pain on paraspinal palpation'
+              text='Pain on paraspinal palpation *'
             />
                       <RubricItem 
-              text='Motor strength 5/5 in LE'
+              text='Motor strength 5/5 in LE *'
             />
                       <RubricItem 
               text=' Reflexes 2/4 in LE bilaterally'
@@ -124,7 +128,10 @@ Unlikely however cancer but still can proceed with imaging to rule out.
               text=' Pulses 2/4 in DP/PT'
             />
                                   <RubricItem 
-              text=' No vertebral tenderness'
+              text='Limited range of motion of the back'
+            />
+                                  <RubricItem 
+              text=' No vertebral tenderness *'
             />
                                   <RubricItem 
               text='Babinski down going bilaterally'
@@ -140,12 +147,110 @@ Unlikely however cancer but still can proceed with imaging to rule out.
           </ul>
         </div>
       </div>
+
+
+
+  
+
+      <h1>Your Diagnosis Answer</h1>
+      <div className='rubric__container'>
+        <div className='rubric__wrapper'>
+          <ul className='rubric__items'>
+            <textarea>
+            </textarea>
+
+            <textarea>
+            </textarea>
+
+            <textarea>
+            </textarea>
+          </ul>
+
+          <h1> Diagnosis Evaluation </h1>
+          <h4> Note: Any item marked with an * displays an item where the machine had high confidence </h4>
+
+          <ul className='credit'>
+            <h3> Items Found in Note: </h3>
+          <RubricItem 
+              text='Cancer with spinal mets'
+            />
+
+          </ul>
+
+          <ul className='nocredit'>
+          <h3> Items NOT Found in Note: </h3>
+          <RubricItem
+              text='Low back strain'
+              />
+                    <RubricItem
+              text='Lumbar Disc Disease'
+              />
+          </ul>
+        </div>
+      </div>
+
+
+
+      <h1>Your Test Ordered Answer</h1>
+      <div className='rubric__container'>
+        <div className='rubric__wrapper'>
+          <ul className='rubric__items'>
+            <textarea>
+            </textarea>
+
+            <textarea>
+            </textarea>
+
+            <textarea>
+            </textarea>
+          </ul>
+
+          <h1> Test Ordered Evaluation </h1>
+          <h4> Note: Any item marked with an * displays an item where the machine had high confidence </h4>
+          <ul className='credit'>
+            <h3> Items Found in Note: </h3>
+          <RubricItem 
+              text='MRI'
+            />
+          <RubricItem 
+              text='PSA'
+            />
+
+          </ul>
+
+          <ul className='nocredit'>
+          <h3> Items NOT Found in Note: </h3>
+          <RubricItem
+              text='Prostate exam'
+              />
+          <RubricItem
+              text='XRAY'
+              />
+
+          <RubricItem
+              text='CT'
+              />
+
+          <RubricItem
+              text='PSAPE'
+              />
+
+          <RubricItem
+              text='None'
+              />
+          </ul>
+        </div>
+      </div>
+
+
+
+
         <div className='input-areas'>
-          <Link to='/'>
+          <Link to={{pathname: 'https://jumpsimulation.sjc1.qualtrics.com/jfe/form/SV_6Xcf6pMBNOLAEFU'}} target="_blank">
             <Button
               buttonStyle='btn--test'
             >
-              Logout & Take Survey
+              Finish & Take Survey
             </Button>
           </Link>
         </div>
