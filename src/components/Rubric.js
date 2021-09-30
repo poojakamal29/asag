@@ -18,7 +18,7 @@ function Rubric() {
           <ul className='rubric__items'>
 
             <RubricItem 
-              text = "45 year old male with no sign PMh with CC of back pain. 3 weeks of sharp pain, constant, improves with laying down and worse with side to side bending. Started while moving file cabinets. Nothing seems to improve. No smoking or EtOH. No incontinence, shooting pain, weakness, or other neurological deficits. Concerned for metastasis because father died of prostate cancer. Patient insistent on pain relief with 'stronger medications.'"
+              text = ""
             />
           </ul>
 
@@ -27,34 +27,14 @@ function Rubric() {
 
           <ul className='credit'>
             <h3> Items Found in Note: </h3>
-
+          <RubricItem 
+              text='Back pain for 3 weeks described as dull ache exacerbated by any movement *'
+          />
           <RubricItem 
               text='Began after moving furniture *'
           />
           <RubricItem 
               text='Worse with flexion and rotation'
-          />
-
-          <RubricItem 
-              text=' Unable to perform usual exercise routine'
-          />
-  
-            
-          <RubricItem 
-              text='No LE weakness, numbness or tingling *'
-          />
-
-          <RubricItem 
-              text=' No smoking in the past'
-          />
-        
-
-          </ul>
-
-          <ul className='nocredit'>
-          <h3> Items NOT Found in Note: </h3>
-          <RubricItem 
-              text='Back pain for 3 weeks described as dull ache exacerbated by any movement *'
           />
           <RubricItem 
               text='Trying Motrin and Tylenol with slight relief *'
@@ -62,7 +42,10 @@ function Rubric() {
           <RubricItem 
               text=' Pain radiates laterally across the lower back'
           />
-         <RubricItem 
+          <RubricItem 
+              text=' Unable to perform usual exercise routine'
+          />
+          <RubricItem 
               text='Father with history of prostate cancer with spine mets'
             />
           <RubricItem 
@@ -75,6 +58,10 @@ function Rubric() {
           <RubricItem
               text='No bladder symptoms'
           />
+            
+          <RubricItem 
+              text='No LE weakness, numbness or tingling *'
+          />
           <RubricItem 
               text=' No fever *'
           />
@@ -83,13 +70,24 @@ function Rubric() {
           />
           <RubricItem 
               text='No IV drug use in the past'
-          />     
+          />
+          <RubricItem 
+              text=' No smoking in the past'
+          />
           <RubricItem 
               text='No concerning alcohol use'
           />
           <RubricItem 
               text='No weight loss'
-          />                    
+          />             
+
+          </ul>
+
+          <ul className='nocredit'>
+          <h3> Items NOT Found in Note: </h3>
+
+
+ 
           </ul>
         </div>
       </div>
@@ -107,7 +105,7 @@ function Rubric() {
         <h1>Your Physical Exam Answer</h1>
           <ul className='rubric__items'>
             <RubricItem
-            text = 'Tenderness to palpation on spine and paraspinal muscles. Strength 5/5, sensation 5/5, reflexes 2+'           
+            text = ''           
             />
           </ul>
 
@@ -116,28 +114,14 @@ function Rubric() {
 
           <ul className='credit'>
             <h3> Items Found in Note: </h3>
-
+          <RubricItem 
+              text='Vital signs mentioned - normal'
+          />
           <RubricItem 
               text='Pain on paraspinal palpation *'
           />
           <RubricItem 
               text='Motor strength 5/5 in LE *'
-          />
-
-
-          <RubricItem 
-              text=' No vertebral tenderness *'
-          />
-          <RubricItem 
-              text='Babinski down going bilaterally'
-          />
-
-          </ul>
-
-          <ul className='nocredit'>
-          <h3> Items NOT Found in Note: </h3>
-          <RubricItem 
-              text='Vital signs mentioned - normal'
           />
           <RubricItem 
               text=' Reflexes 2/4 in LE bilaterally'
@@ -151,9 +135,20 @@ function Rubric() {
           <RubricItem 
               text='Limited range of motion of the back'
           />
+          <RubricItem 
+              text=' No vertebral tenderness *'
+          />
+          <RubricItem 
+              text='Babinski down going bilaterally'
+          />
           <RubricItem
               text='Straight leg raise'
           />
+          </ul>
+
+          <ul className='nocredit'>
+          <h3> Items NOT Found in Note: </h3>
+
           </ul>
         </div>
       </div>
@@ -172,11 +167,8 @@ function Rubric() {
 
           <ul className='rubric__items'>
             <RubricItem
-            text = 'Spinal Fracture'
+            text = ''
             />
-            <RubricItem
-            text = ' MSK pain'
-            />                      
           </ul>
 
           <h1> Actual Patient Diagnosis </h1>
@@ -193,6 +185,13 @@ function Rubric() {
           <ul className='credit'>
             <h3> Items Found in Note: </h3>
 
+            <RubricItem
+              text='Low back strain'
+            />    
+
+            <RubricItem
+              text='Lumbar Disc Disease'
+            />          
 
             <RubricItem 
               text='Cancer with spinal mets'
@@ -202,13 +201,6 @@ function Rubric() {
 
           <ul className='nocredit'>
           <h3> Items NOT Found in Note: </h3>
-          <RubricItem
-              text='Low back strain'
-            />    
-
-            <RubricItem
-              text='Lumbar Disc Disease'
-            />          
 
 
           </ul>
@@ -229,11 +221,20 @@ function Rubric() {
         </h4>
         <ul className='rubric__items'>
           <RubricItem className = 'length'
-              text='MRI spine'
+              text=''
           />
           <RubricItem 
-              text='Search for history of drug seeking behavior'
-          />      
+              text=''
+          />
+          <RubricItem 
+              text=''
+          />
+          <RubricItem 
+              text=''
+          />
+          <RubricItem 
+              text=''
+          />          
           </ul>
 
 
