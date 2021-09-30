@@ -6,14 +6,18 @@
     margin-bottom: 100;
 
   }
-  
+
   h1 {
     margin-bottom: 100;
     white-space: pre-wrap;
     font-weight: 400;
-    text-align: left;
+    text-align: center;
   }
-
+  h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+  }
   h4 {
     text-align: center;
     font-style: bold;
@@ -45,18 +49,18 @@
     font-weight: 100;
     overflow: scroll;
     white-space: pre-wrap;
-
-
-
   }
   
   .rubric__items {
     margin-bottom: 24px;
     font-size: medium;
     font-weight: 100;
-    overflow-y: scroll;
     white-space: pre-wrap;
-    background: #fff;
+    background: rgba(190, 236, 176, 0.938);
+  }
+
+  .black {
+    color: black;
   }
 
   .credit {
@@ -80,8 +84,6 @@
     flex: 1;
     margin: 0 1rem;
     border-radius: 10px;
-    overflow: scroll;
-    color:blueviolet
   }
 
   
@@ -90,12 +92,11 @@
   }
   
   .cards__item__text {
-    color: purple;
     font-size: 18px;
     line-height: 24px;
     font-weight: 100;
-    overflow: scroll;
   }
+
   
   @media only screen and (min-width: 1200px) {
     .content__blog__container {
