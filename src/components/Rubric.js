@@ -23,7 +23,7 @@ function Rubric() {
           </ul>
 
           <h1> History Evaluation </h1>
-          <h4> Note: Any item marked with an * displays an item where the machine had high confidence </h4>
+          <h4> Note: Any item marked with an * displays an item where the machine had high confidence                                                                                                                                         </h4>
 
           <ul className='credit'>
             <h3> Items Found in Note: </h3>
@@ -103,8 +103,6 @@ function Rubric() {
       <div className='rubric__container'>
         <div className='rubric__wrapper'>
         <h1>Your Physical Exam Answer</h1>
-
-
           <ul className='rubric__items'>
             <RubricItem
             text = ''           
@@ -112,7 +110,7 @@ function Rubric() {
           </ul>
 
           <h1> Physical Exam Evaluation </h1>
-          <h4> Note: Any item marked with an * displays an item where the machine had high confidence </h4>
+          <h4> Note: Any item marked with an * displays an item where the machine had high confidence                                                                                                                                         </h4>
 
           <ul className='credit'>
             <h3> Items Found in Note: </h3>

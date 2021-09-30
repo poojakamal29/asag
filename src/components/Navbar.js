@@ -41,15 +41,6 @@ function Navbar() {
                 Home
               </Link>
             </li>
-            <li className='nav-item'>
-              <Link
-                to='/services'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                Back Pain
-              </Link>
-            </li>
 
             <li className = 'logout'>
               <Link to='/'>
